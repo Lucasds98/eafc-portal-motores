@@ -1,0 +1,205 @@
+:root {
+  --bg: #0b1220;
+  --card: #0f1724;
+  --muted: #9aa4b2;
+  --accent: #1fb47c;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial;
+  background: linear-gradient(180deg, #071022, #071733);
+  padding: 24px;
+  color: #e6eef6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 6px 20px rgba(2, 6, 23, 0.6);
+}
+
+.table-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.divider {
+  width: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  height: 100%;
+}
+
+.side-panel {
+  width: 280px;
+  padding: 12px;
+  color: #e6eef6;
+}
+
+.player-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 6px 0 8px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: #111;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.header h2 {
+  margin: 0;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+}
+.tabela th {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  color: var(--muted);
+  font-weight: 600;
+}
+.tabela td {
+  padding: 10px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+}
+.tabela tr.even {
+  background: rgba(255, 255, 255, 0.01);
+}
+
+.col-class {
+  min-width: 260px;
+}
+.time {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.ultimos {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.bola {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.bola.vitoria {
+  background: #24c27a;
+}
+.bola.empate {
+  background: #8b8f96;
+}
+.bola.derrota {
+  background: #ff6b6b;
+}
+.empty {
+  color: var(--muted);
+}
+
+select {
+  background: transparent;
+  color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+jogos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.jogos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jogos-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.arrow-btn {
+  background: transparent;
+  border: none;
+  color: #ddd;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.jogos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.jogo-card {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.jogo-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.jogo-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.placar {
+  font-size: 16px;
+  margin: 0 4px;
+}
+
+.jogo-meta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #aab3c0;
+}
+
+.como-foi {
+  margin-top: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #00a859;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .col-class {
+    min-width: 150px;
+  }
+  .tabela th:nth-child(1),
+  .tabela td:nth-child(1) {
+    font-size: 14px;
+  }
+}

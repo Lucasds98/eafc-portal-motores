@@ -1,0 +1,66 @@
+.jogos-box {
+  padding: 4px;
+  color: #000000;
+}
+
+.jogos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.jogo-card {
+  padding: 8px 0 12px 0;
+}
+
+.jogo-local {
+  font-size: 12px;
+  color: #2f2d2d;
+  margin-bottom: 6px!important;
+}
+
+.jogo-times {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jogo-time {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color:#3a3535
+}
+
+.text-como-foi{
+    place-self: center!important;
+    margin: 3px 0;
+}
+
+.escudo {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.placar {
+  font-size: 20px;
+  font-weight: bold;
+  color:#3a3535
+}
+
+.x {
+  font-size: 16px;
+  color: #bbb;
+}
+
+.como-foi {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #00a859;
+  font-weight: 600;
+  text-decoration: none;
+}

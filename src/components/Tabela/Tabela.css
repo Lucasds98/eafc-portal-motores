@@ -1,0 +1,115 @@
+.tabela-wrapper {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 10px;
+}
+
+.tabela-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.tabela-table th {
+  text-align: left;
+  padding: 8px;
+  color: #1a1f27;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.tabela-table td {
+  padding: 8px;
+  border-bottom: 1px solid #d9dce1;
+}
+
+.even {
+  background: #f7f9fc;
+}
+
+.odd {
+  background: #edf2f7;
+}
+.time {
+  color: #4a5568;
+}
+
+.bola {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+.vitoria {
+  background: #24c27a;
+}
+
+.empate {
+  background: #c6c9cf;
+}
+
+.derrota {
+  background: #ff6b6b;
+}
+
+.col-class {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.escudo-tabela {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.pos-azul {
+  color: #1e88e5;
+  font-weight: 700;
+}
+
+.pos-normal {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.pos-vermelho {
+  color: #e53935;
+  font-weight: 700;
+}
+
+.nome {
+  font-weight: 600;
+}
+
+.player-link {
+  cursor: pointer;
+  color: #1976d2;
+}
+
+.player-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .tabela-table th,
+  .tabela-table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .escudo-tabela {
+    width: 22px;
+    height: 22px;
+  }
+
+  .pos {
+    width: 22px;
+  }
+
+  .col-class {
+    gap: 6px;
+  }
+}

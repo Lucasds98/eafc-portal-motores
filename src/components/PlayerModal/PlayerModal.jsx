@@ -7,6 +7,7 @@ import {
   Typography,
   Box,
 } from "@mui/material";
+import { getImage } from "../../utils/getImage";
 
 export default function PlayerModal({ open, onClose, player }) {
   if (!player) return null;
@@ -59,13 +60,13 @@ export default function PlayerModal({ open, onClose, player }) {
             }}
           >
             <img
-              src={player.iconeGrande || player.icone}
-              alt={player.nome}
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
+                src={getImage(player.iconeGrande || player.icone)}
+                alt={player.nome}
+                style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                }}
             />
           </Box>
         </Box>

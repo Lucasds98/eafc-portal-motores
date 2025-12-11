@@ -12,6 +12,7 @@ import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 
 import "./JogosDaRodada.css";
 import PlayerModal from "../PlayerModal/PlayerModal";
+import { getImage } from "../../utils/getImage";
 
 export default function JogosDaRodada() {
   const [rodadaAtual, setRodadaAtual] = useState(1);
@@ -87,7 +88,7 @@ export default function JogosDaRodada() {
             <Box className="jogo-times">
               <Box className="jogo-time">
                 <img
-                  src={A.icone}
+                  src={getImage(A.icone)}
                   className="escudo"
                   onClick={() => abrirModal(A.id)}
                   style={{ cursor: "pointer" }}
@@ -104,7 +105,7 @@ export default function JogosDaRodada() {
               <Box className="jogo-time">
                 <Typography>{B.nome}</Typography>
                 <img
-                  src={B.icone}
+                  src={getImage(B.icone)}
                   className="escudo"
                   onClick={() => abrirModal(B.id)}
                   style={{ cursor: "pointer" }}

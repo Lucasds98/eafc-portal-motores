@@ -18,6 +18,7 @@ import {
 } from "@mui/material";
 
 import "./tabela.css";
+import { getImage } from "../../utils/getImage";
 
 export default function Tabela() {
   const [selectedRdd, setSelectedRdd] = useState("all");
@@ -99,8 +100,7 @@ export default function Tabela() {
                         {index + 1}º
                       </span>
                       <img
-                        src={players.find((p) => p.id === row.id)?.icone}
-                        alt={row.nome}
+                        src={getImage(players.find((p) => p.id === row.id)?.icone)}                        alt={row.nome}
                         className="escudo-tabela"
                         onClick={() => abrirModal(row.id)}
                         style={{ cursor: "pointer" }}

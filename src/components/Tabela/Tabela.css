@@ -9,6 +9,11 @@
   margin-top: 16px;
 }
 
+.tabela-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .tabela-table th {
   text-align: left;
   padding: 8px;

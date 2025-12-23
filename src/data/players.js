@@ -20,7 +20,7 @@ export const players = [
   {
     id: 3,
     nome: 'Dygo',
-    time: 'Barça',
+    time: 'Barcelona',
     icone: 'dygo.png',
     frase: 'Rodrigo Dygo 24',
     bio: 'Novo paivinha do eliza, faz o dificil, já o facíl....',
@@ -65,7 +65,7 @@ export const players = [
   {
     id: 8,
     nome: 'Pauleta',
-    time: 'Bayern',
+    time: 'Barcelona',
     icone: 'paulo.png',
     frase: 'Bixxcoto 2',
     bio: 'O box-to-box',

@@ -75,74 +75,75 @@ export default function Tabela() {
                 </Select>
               </FormControl>
             </Box>
-
-            <table className="tabela-table">
-              <thead>
-                <tr>
-                  <th>Classificação</th>
-                  <th>P</th>
-                  <th>J</th>
-                  <th>V</th>
-                  <th>E</th>
-                  <th>D</th>
-                  <th>GP</th>
-                  <th>GC</th>
-                  <th>SG</th>
-                  <th>%</th>
-                  <th>ÚLT. JOGOS</th>
-                </tr>
-              </thead>
-              <tbody>
-                {tabela.map((row, index) => (
-                  <tr key={row.id} className={index % 2 === 0 ? "even" : "odd"}>
-                    <td className="col-class">
-                      <span className={`pos ${getPosicaoClasse(index + 1)}`}>
-                        {index + 1}º
-                      </span>
-                      <img
-                        src={getImage(players.find((p) => p.id === row.id)?.icone)}                        alt={row.nome}
-                        className="escudo-tabela"
-                        onClick={() => abrirModal(row.id)}
-                        style={{ cursor: "pointer" }}
-                      />
-                      <strong
-                        className="player-link"
-                        onClick={() => abrirModal(row.id)}
-                      >
-                        {row.nome}
-                      </strong>
-                      <span className="time">({row.time})</span>
-                    </td>
-                    <td>{row.p}</td>
-                    <td>{row.j}</td>
-                    <td>{row.v}</td>
-                    <td>{row.e}</td>
-                    <td>{row.d}</td>
-                    <td>{row.gp}</td>
-                    <td>{row.gc}</td>
-                    <td>{row.sg}</td>
-                    <td>{row.aproveitamento.toFixed(1)}%</td>
-                    <td>
-                      <div className="ultimos">
-                        {row.ultimos.length === 0 && <span className="empty">-</span>}
-                        {row.ultimos.map((r, i) => (
-                          <span
-                            key={i}
-                            className={`bola ${
-                              r === "V"
-                                ? "vitoria"
-                                : r === "E"
-                                ? "empate"
-                                : "derrota"
-                            }`}
-                          />
-                        ))}
-                      </div>
-                    </td>
+            <div className="tabela-scroll">
+              <table className="tabela-table">
+                <thead>
+                  <tr>
+                    <th>Classificação</th>
+                    <th>P</th>
+                    <th>J</th>
+                    <th>V</th>
+                    <th>E</th>
+                    <th>D</th>
+                    <th>GP</th>
+                    <th>GC</th>
+                    <th>SG</th>
+                    <th>%</th>
+                    <th>ÚLT. JOGOS</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {tabela.map((row, index) => (
+                    <tr key={row.id} className={index % 2 === 0 ? "even" : "odd"}>
+                      <td className="col-class">
+                        <span className={`pos ${getPosicaoClasse(index + 1)}`}>
+                          {index + 1}º
+                        </span>
+                        <img
+                          src={getImage(players.find((p) => p.id === row.id)?.icone)}                        alt={row.nome}
+                          className="escudo-tabela"
+                          onClick={() => abrirModal(row.id)}
+                          style={{ cursor: "pointer" }}
+                        />
+                        <strong
+                          className="player-link"
+                          onClick={() => abrirModal(row.id)}
+                        >
+                          {row.nome}
+                        </strong>
+                        <span className="time">({row.time})</span>
+                      </td>
+                      <td>{row.p}</td>
+                      <td>{row.j}</td>
+                      <td>{row.v}</td>
+                      <td>{row.e}</td>
+                      <td>{row.d}</td>
+                      <td>{row.gp}</td>
+                      <td>{row.gc}</td>
+                      <td>{row.sg}</td>
+                      <td>{row.aproveitamento.toFixed(1)}%</td>
+                      <td>
+                        <div className="ultimos">
+                          {row.ultimos.length === 0 && <span className="empty">-</span>}
+                          {row.ultimos.map((r, i) => (
+                            <span
+                              key={i}
+                              className={`bola ${
+                                r === "V"
+                                  ? "vitoria"
+                                  : r === "E"
+                                  ? "empate"
+                                  : "derrota"
+                              }`}
+                            />
+                          ))}
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </Grid>
 
           {/* DIVISÓRIA */}

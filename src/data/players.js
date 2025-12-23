@@ -11,7 +11,7 @@ export const players = [
   {
     id: 2,
     nome: 'Thiago',
-    time: 'França',
+    time: 'PSG',
     icone: 'thiago.png',
     frase: 'Th 10',
     bio: 'Famoso 10, nunca ta bom para o cara',
@@ -29,7 +29,7 @@ export const players = [
   {
     id: 4,
     nome: 'Ian',
-    time: 'França',
+    time: 'PSG',
     icone: 'ian.png',
     frase: 'Ianbélé 9',
     bio: 'Melhor atacante guarapuavano que existe, se fizesse o tanto de gol que perde era o novo ronaldo',

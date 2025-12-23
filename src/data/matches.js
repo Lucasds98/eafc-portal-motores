@@ -13,8 +13,9 @@ export const matches = [
   { rdd: 1, jogadorId: 1, result: 'V', golsPro: 9, golsContra: 3 },
   { rdd: 1, jogadorId: 8, result: 'D', golsPro: 3, golsContra: 9 },
 
-//   // RDD 2
-//   { rdd: 2, jogadorId: 1, result: 'E', golsPro: 1, golsContra: 1 },
+  // RDD 2
+  { rdd: 2, jogadorId: 1, result: 'V', golsPro: 4, golsContra: 2 },
+  { rdd: 2, jogadorId: 7, result: 'D', golsPro: 2, golsContra: 4 },   
 //   { rdd: 2, jogadorId: 2, result: 'V', golsPro: 2, golsContra: 0 },
 
 //   { rdd: 2, jogadorId: 3, result: 'V', golsPro: 3, golsContra: 1 },

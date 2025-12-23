@@ -10,9 +10,9 @@ export const games = [
   { id: 'r1-j4', rdd: 1, timeA: 1, timeB: 8, golsA: 9, golsB: 3, status: 'finalizado', local: 'Vargem Grande Stadium', data: '2025-12-22', hora: '21:00' },
 
   // RDD 2
-  { id: 'r2-j1', rdd: 2, timeA: 2, timeB: 5, golsA: 0, golsB: 0, status: 'pendente', local: 'Atuba 2 Field', data: '2025-12-22', hora: '18:30' },
+  { id: 'r2-j1', rdd: 2, timeA: 1, timeB: 7, golsA: 4, golsB: 2, status: 'finalizado', local: 'Vargem Grande Stadium', data: '2025-12-22', hora: '22:40' },
   { id: 'r2-j2', rdd: 2, timeA: 8, timeB: 6, golsA: 0, golsB: 0, status: 'pendente', local: 'Campo do Jardim Cláudia', data: '2025-12-22', hora: '18:30' },
-  { id: 'r2-j3', rdd: 2, timeA: 1, timeB: 7, golsA: 0, golsB: 0, status: 'pendente', local: 'Vargem Grande Stadium', data: '2025-12-22', hora: '18:30' },
+  { id: 'r2-j3', rdd: 2, timeA: 2, timeB: 5, golsA: 0, golsB: 0, status: 'pendente', local: 'Atuba 2 Field', data: '2025-12-22', hora: '18:30' },
   { id: 'r2-j4', rdd: 2, timeA: 3, timeB: 4, golsA: 0, golsB: 0, status: 'pendente', local: 'Elisa Park', data: '2025-12-22', hora: '18:30' },
 
   // RDD 3

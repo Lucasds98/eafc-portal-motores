@@ -11,7 +11,7 @@ export const games = [
 
   // RDD 2
   { id: 'r2-j1', rdd: 2, timeA: 1, timeB: 7, golsA: 4, golsB: 2, status: 'finalizado', local: 'Vargem Grande Stadium', data: '2025-12-22', hora: '22:40' },
-  { id: 'r2-j3', rdd: 2, timeA: 8, timeB: 6, golsA: 2, golsB: 6, status: 'finalizado', local: 'Campo Jardim Cláudia', data: '2025-12-23', hora: '13:30' },
+  { id: 'r2-j2', rdd: 2, timeA: 8, timeB: 6, golsA: 2, golsB: 6, status: 'finalizado', local: 'Campo Jardim Cláudia', data: '2025-12-23', hora: '13:30' },
   { id: 'r2-j3', rdd: 2, timeA: 3, timeB: 4, golsA: 1, golsB: 6, status: 'finalizado', local: 'Elisa Park', data: '2025-12-23', hora: '14:30' },
   { id: 'r2-j4', rdd: 2, timeA: 2, timeB: 5, golsA: 4, golsB: 1, status: 'finalizado', local: 'Atuba 2 Field', data: '2025-12-23', hora: '17:40' },
 

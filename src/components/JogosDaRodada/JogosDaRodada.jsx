@@ -80,7 +80,7 @@ export default function JogosDaRodada() {
         const isFinal = jogo.status === "finalizado";
 
         return (
-          <Box key={jogo.id} className="jogo-card">
+          <Box key={`${jogo.rdd}-${jogo.id}`} className="jogo-card">
             <Typography className="jogo-local">
               {jogo.local} - {jogo.data && jogo.data !== 'INDEFINIDO' ? formatarDataBR(jogo.data) : jogo.data} {jogo.hora && `- ${jogo.hora}`}
             </Typography>

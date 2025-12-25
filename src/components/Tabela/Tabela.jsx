@@ -43,7 +43,8 @@ export default function Tabela() {
   const tabela = calcularTabela(players, filteredMatches);
   
   function getPosicaoClasse(pos) {
-    if (pos <= 4) return "pos-azul";
+    if (pos == 1) return "pos-verde";
+    if (pos > 1 && pos <= 3) return "pos-azul";
     if (pos <= 6) return "pos-normal";
     return "pos-vermelho";
   }

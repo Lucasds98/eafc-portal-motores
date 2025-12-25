@@ -15,7 +15,7 @@ import PlayerModal from "../PlayerModal/PlayerModal";
 import { getImage } from "../../utils/getImage";
 
 export default function JogosDaRodada() {
-  const [rodadaAtual, setRodadaAtual] = useState(2);
+  const [rodadaAtual, setRodadaAtual] = useState(3);
   const [openPlayer, setOpenPlayer] = useState(false);
   const [selectedPlayer, setSelectedPlayer] = useState(null);
 
@@ -82,7 +82,7 @@ export default function JogosDaRodada() {
         return (
           <Box key={jogo.id} className="jogo-card">
             <Typography className="jogo-local">
-              {jogo.local} - {formatarDataBR(jogo.data)} - {jogo.hora}
+              {jogo.local} - {jogo.data && jogo.data !== 'INDEFINIDO' ? formatarDataBR(jogo.data) : jogo.data} {jogo.hora && `- ${jogo.hora}`}
             </Typography>
 
             <Box className="jogo-times">

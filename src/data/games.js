@@ -18,7 +18,7 @@ export const games = [
   // RDD 3
   { id: 'r3-j1', rdd: 3, timeA: 2, timeB: 3, golsA: 1, golsB: 4, status: 'finalizado', local: 'Atuba 2 Field', data: '2026-01-04', hora: '19:50' },
   { id: 'r3-j2', rdd: 3, timeA: 7, timeB: 5, golsA: 1, golsB: 3, status: 'finalizado', local: 'Hospital Das Nações', data: '2026-01-10', hora: '23:20' },
-  { id: 'r3-j3', rdd: 3, timeA: 8, timeB: 4, golsA: 0, golsB: 0, status: 'pendente', local: 'Campo Jardim Cláudia', data: 'INDEFINIDO', hora: '' },
+  { id: 'r3-j3', rdd: 3, timeA: 8, timeB: 4, golsA: 0, golsB: 3, status: 'finalizado', local: 'Campo Jardim Cláudia', data: '2026-01-11', hora: '12:15' },
   { id: 'r3-j4', rdd: 3, timeA: 1, timeB: 6, golsA: 0, golsB: 0, status: 'pendente', local: 'Vargem Grande Stadium', data: 'INDEFINIDO', hora: '' },
 
   // RDD 4

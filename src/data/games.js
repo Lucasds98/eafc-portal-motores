@@ -19,14 +19,14 @@ export const games = [
   { id: 'r3-j1', rdd: 3, timeA: 2, timeB: 3, golsA: 1, golsB: 4, status: 'finalizado', local: 'Atuba 2 Field', data: '2026-01-04', hora: '19:50' },
   { id: 'r3-j2', rdd: 3, timeA: 7, timeB: 5, golsA: 1, golsB: 3, status: 'finalizado', local: 'Hospital Das Nações', data: '2026-01-10', hora: '23:20' },
   { id: 'r3-j3', rdd: 3, timeA: 8, timeB: 4, golsA: 0, golsB: 3, status: 'finalizado', local: 'Campo Jardim Cláudia', data: '2026-01-11', hora: '12:15' },
-  { id: 'r3-j4', rdd: 3, timeA: 1, timeB: 6, golsA: 0, golsB: 0, status: 'pendente', local: 'Vargem Grande Stadium', data: 'INDEFINIDO', hora: '' },
+  { id: 'r3-j4', rdd: 3, timeA: 1, timeB: 6, golsA: 2, golsB: 2, status: 'finalizado', local: 'Vargem Grande Stadium', data: '2026-01-12', hora: '19:30' },
 
   // RDD 4
-  { id: 'r4-j1', rdd: 4, timeA: 1, timeB: 5, golsA: 0, golsB: 0, status: 'pendente', local: 'Vargem Grande Stadium', data: 'INDEFINIDO', hora: '' },
-  { id: 'r4-j2', rdd: 4, timeA: 6, timeB: 4, golsA: 0, golsB: 0, status: 'pendente', local: 'Arena Tacacá', data: 'INDEFINIDO', hora: '' },
-  { id: 'r4-j3', rdd: 4, timeA: 7, timeB: 3, golsA: 0, golsB: 0, status: 'pendente', local: 'Hospital Das Nações', data: 'INDEFINIDO', hora: '' },
+  { id: 'r4-j1', rdd: 4, timeA: 7, timeB: 3, golsA: 4, golsB: 2, status: 'finalizado', local: 'Hospital Das Nações', data: '2026-01-12', hora: '23:15' },
+  { id: 'r4-j2', rdd: 4, timeA: 1, timeB: 5, golsA: 0, golsB: 0, status: 'pendente', local: 'Vargem Grande Stadium', data: 'INDEFINIDO', hora: '' },
+  { id: 'r4-j3', rdd: 4, timeA: 6, timeB: 4, golsA: 0, golsB: 0, status: 'pendente', local: 'Arena Tacacá', data: 'INDEFINIDO', hora: '' },
   { id: 'r4-j4', rdd: 4, timeA: 8, timeB: 2, golsA: 0, golsB: 0, status: 'pendente', local: 'Campo Jardim Cláudia', data: 'INDEFINIDO', hora: '' },
-
+  
   // RDD 5
   { id: 'r5-j1', rdd: 5, timeA: 1, timeB: 4, golsA: 0, golsB: 0, status: 'pendente', local: 'Vargem Grande Stadium', data: 'INDEFINIDO', hora: '' },
   { id: 'r5-j2', rdd: 5, timeA: 5, timeB: 3, golsA: 0, golsB: 0, status: 'pendente', local: 'Guarapuava Arena', data: 'INDEFINIDO', hora: '' },

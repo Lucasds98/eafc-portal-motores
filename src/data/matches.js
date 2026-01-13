@@ -38,6 +38,11 @@ export const matches = [
   { rdd: 3, jogadorId: 8, result: 'D', golsPro: 0, golsContra: 3 },
   { rdd: 3, jogadorId: 4, result: 'V', golsPro: 3, golsContra: 0 },
   //JOGO 4
-  // { rdd: 2, jogadorId: 2, result: 'V', golsPro: 4, golsContra: 1 },
-  // { rdd: 2, jogadorId: 5, result: 'D', golsPro: 1, golsContra: 4 },
+  { rdd: 3, jogadorId: 1, result: 'E', golsPro: 2, golsContra: 2 },
+  { rdd: 3, jogadorId: 6, result: 'E', golsPro: 2, golsContra: 2 },
+
+  // RDD 4
+  //JOGO 1
+  { rdd: 4, jogadorId: 7, result: 'V', golsPro: 4, golsContra: 2 },
+  { rdd: 4, jogadorId: 3, result: 'D', golsPro: 2, golsContra: 4 },   
 ];

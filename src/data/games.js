@@ -23,8 +23,8 @@ export const games = [
 
   // RDD 4
   { id: 'r4-j1', rdd: 4, timeA: 7, timeB: 3, golsA: 4, golsB: 2, status: 'finalizado', local: 'Hospital Das Nações', data: '2026-01-12', hora: '23:15' },
-  { id: 'r4-j2', rdd: 4, timeA: 1, timeB: 5, golsA: 0, golsB: 0, status: 'pendente', local: 'Vargem Grande Stadium', data: 'INDEFINIDO', hora: '' },
-  { id: 'r4-j3', rdd: 4, timeA: 6, timeB: 4, golsA: 0, golsB: 0, status: 'pendente', local: 'Arena Tacacá', data: 'INDEFINIDO', hora: '' },
+  { id: 'r4-j2', rdd: 4, timeA: 6, timeB: 4, golsA: 3, golsB: 4, status: 'finalizado', local: 'Arena Tacacá', data: '2026-01-14', hora: '19:30' },
+  { id: 'r4-j3', rdd: 4, timeA: 1, timeB: 5, golsA: 0, golsB: 0, status: 'pendente', local: 'Vargem Grande Stadium', data: 'INDEFINIDO', hora: '' },
   { id: 'r4-j4', rdd: 4, timeA: 8, timeB: 2, golsA: 0, golsB: 0, status: 'pendente', local: 'Campo Jardim Cláudia', data: 'INDEFINIDO', hora: '' },
   
   // RDD 5

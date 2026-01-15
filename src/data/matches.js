@@ -45,4 +45,7 @@ export const matches = [
   //JOGO 1
   { rdd: 4, jogadorId: 7, result: 'V', golsPro: 4, golsContra: 2 },
   { rdd: 4, jogadorId: 3, result: 'D', golsPro: 2, golsContra: 4 },   
+  //JOGO 2
+  { rdd: 4, jogadorId: 6, result: 'D', golsPro: 3, golsContra: 4 },
+  { rdd: 4, jogadorId: 4, result: 'V', golsPro: 4, golsContra: 3 },
 ];

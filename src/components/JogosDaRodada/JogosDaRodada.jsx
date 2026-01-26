@@ -15,7 +15,7 @@ import PlayerModal from "../PlayerModal/PlayerModal";
 import { getImage } from "../../utils/getImage";
 
 export default function JogosDaRodada() {
-  const [rodadaAtual, setRodadaAtual] = useState(4);
+  const [rodadaAtual, setRodadaAtual] = useState(5);
   const [openPlayer, setOpenPlayer] = useState(false);
   const [selectedPlayer, setSelectedPlayer] = useState(null);
 

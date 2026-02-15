@@ -30,13 +30,13 @@ export const games = [
   // RDD 5
   { id: 'r5-j1', rdd: 5, timeA: 1, timeB: 4, golsA: 3, golsB: 3, status: 'finalizado', local: 'VG Stadium', data: '2026-01-26', hora: '20:15' },
   { id: 'r5-j2', rdd: 5, timeA: 5, timeB: 3, golsA: 6, golsB: 6, status: 'finalizado', local: 'Guarapuava Arena', data: '2026-01-26', hora: '20:00' },
-  { id: 'r5-j3', rdd: 5, timeA: 6, timeB: 2, golsA: 0, golsB: 0, status: 'pendente', local: 'Arena Tacacá', data: 'INDEFINIDO', hora: '' },
-  { id: 'r5-j4', rdd: 5, timeA: 7, timeB: 8, golsA: 0, golsB: 0, status: 'pendente', local: 'Hospital Das Nações', data: 'INDEFINIDO', hora: '' },
+  { id: 'r5-j3', rdd: 5, timeA: 6, timeB: 2, golsA: 3, golsB: 0, status: 'finalizado', local: 'Arena Tacacá', data: '2026-02-03', hora: '19:00' },
+  { id: 'r5-j4', rdd: 5, timeA: 7, timeB: 8, golsA: 4, golsB: 4, status: 'finalizado', local: 'Hospital Das Nações', data: '2026-01-30', hora: '19:15' },
 
   // RDD 6
-  { id: 'r6-j1', rdd: 6, timeA: 1, timeB: 3, golsA: 0, golsB: 0, status: 'pendente', local: 'VG Stadium', data: 'INDEFINIDO', hora: '' },
+  { id: 'r6-j1', rdd: 6, timeA: 1, timeB: 3, golsA: 3, golsB: 3, status: 'finalizado', local: 'VG Stadium', data: '2026-02-08', hora: '20:50' },
   { id: 'r6-j2', rdd: 6, timeA: 4, timeB: 2, golsA: 0, golsB: 0, status: 'pendente', local: 'Guarapuava Arena', data: 'INDEFINIDO', hora: '' },
-  { id: 'r6-j3', rdd: 6, timeA: 5, timeB: 8, golsA: 0, golsB: 0, status: 'pendente', local: 'Guarapuava Arena', data: 'INDEFINIDO', hora: '' },
+  { id: 'r6-j3', rdd: 6, timeA: 5, timeB: 8, golsA: 2, golsB: 3, status: 'finalizado', local: 'Guarapuava Arena', data: '2026-02-13', hora: '23:15' },
   { id: 'r6-j4', rdd: 6, timeA: 6, timeB: 7, golsA: 0, golsB: 0, status: 'pendente', local: 'Arena Tacacá', data: 'INDEFINIDO', hora: '' },
 
   // RDD 7
